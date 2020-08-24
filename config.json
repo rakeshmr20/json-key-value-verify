@@ -1,0 +1,56 @@
+{
+	"AccountNumber": {
+		"regex": "^([0-9])",
+		"min": 3,
+		"max": 10,
+		"mandate": true
+	},
+	"IndividualPanPanNumber": {
+		"regex": "^([0-9])",
+		"min": 1,
+		"max": 8,
+		"mandate": true
+	},
+	"branchcode": {
+		"regex": "",
+		"min": 0,
+		"max": 20,
+		"mandate": false
+	},
+	"ProductKey": {
+		"regex": "",
+		"min": 0,
+		"max": 20,
+		"mandate": false
+	},
+	"LCCode": {
+		"regex": "",
+		"min": 0,
+		"max": 20,
+		"mandate": true
+	},
+	"LGCode": {
+		"regex": "",
+		"min": 0,
+		"max": 20,
+		"mandate": true
+	},
+	"Empcodename": {
+		"regex": "",
+		"min": 0,
+		"max": 20,
+		"mandate": false
+	},
+	"PromoCode": {
+		"regex": "",
+		"min": 0,
+		"max": 20,
+		"mandate": false
+	},
+	"chequedate": {
+		"regex": "",
+		"min": 0,
+		"max": 20,
+		"mandate": false
+	}
+}
